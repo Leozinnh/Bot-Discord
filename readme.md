@@ -20,7 +20,6 @@ Aqui estão alguns dos comandos e funcionalidades que o **PyBot** oferece:
 - `.userinfo <usuário>`: Exibe informações detalhadas de um usuário.
 - `.serverinfo`: Exibe informações do servidor, como membros, data de criação e muito mais.
 - `.ping`: Verifica se o bot está online e responde com o tempo de latência.
-- `.uptime`: Mostra quanto tempo o bot está online.
 
 ### 🎉 **Comandos de Diversão**
 - `.hug <usuário>`: Exibe uma imagem de duas pessoas se abraçando
