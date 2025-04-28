@@ -1,17 +1,35 @@
-import discord
-from discord.ext import commands
-from time import sleep
-from discord.ext.commands import has_permissions
-import json
-import requests
-import random
-import asyncio
-from bs4 import BeautifulSoup
-import discord.reaction
-import discord.emoji
-import discord.role
-from discord.utils import get
-from asyncio import TimeoutError
+import os
+try:
+    import discord
+    from discord.ext import commands
+    from time import sleep
+    from discord.ext.commands import has_permissions
+    import json
+    import requests
+    import random
+    import asyncio
+    from bs4 import BeautifulSoup
+    import discord.reaction
+    import discord.emoji
+    import discord.role
+    from discord.utils import get
+    from asyncio import TimeoutError
+except ImportError:
+    print("Instalando as dependências, por favor aguarde...")
+    os.system("pip install discord.py")
+    os.system("pip install requests")
+    os.system("pip install beautifulsoup4")
+    os.system("pip install asyncio")
+    os.system("pip install discord.ext")
+    os.system("pip install discord.emoji")
+    os.system("pip install discord.reaction")
+    os.system("pip install discord.role")
+    os.system("cls")
+    print("Dependências instaladas com sucesso! Inicie novamente o bot.")
+    exit()
+except Exception as e:
+    print(f"Erro ao importar as dependências: {e}")
+    exit()
 
 #
 
